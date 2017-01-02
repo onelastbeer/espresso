@@ -4,3 +4,15 @@ services:
     build: ./
     ports:
       - "80:80"
+  botania:
+    build: https://github.com/wakeupcoffee/botania.git
+    ports:
+      - "8083:80"
+  wakeup:
+    build: https://github.com/wakeupcoffee/wakeup.coffee.git
+    ports:
+      - "8081:80"
+  ripples:
+    build: https://github.com/wakeupcoffee/ripples.git
+    ports:
+      - "8080:80"
