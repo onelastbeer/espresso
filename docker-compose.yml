@@ -19,4 +19,4 @@ services:
   ripples:
     build: https://github.com/wakeupcoffee/ripples.git
     ports:
-      - "8080:80"
+      - "8084:80"
